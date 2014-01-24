@@ -50,9 +50,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	persist.radio.0x9e_not_callname=1 \
 	persist.radio.skip_data_check=1 \
 	persist.ril.max.crit.qmi.fails=4 \
-	ro.mot.build.customerid=verizon \
-	ro.hw.radio=0x3 \
-	ro.hw.device=falcon
+	ro.mot.build.customerid=verizon
 
 # Allow verizon apps to show in market
 PRODUCT_PROPERTY_OVERRIDES += \
